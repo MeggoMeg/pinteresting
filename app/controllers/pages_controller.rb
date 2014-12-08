@@ -6,4 +6,8 @@ class PagesController < ApplicationController
   def about
   end
 
+  def meggo
+  	render 'pages/meggo'
+  end
+
 end

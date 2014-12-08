@@ -1,8 +1,23 @@
-$body-bg: 		#34495e;
 
-$navbar-default-bg: 	#f1c40f;
+
+$body-bg: 		white;
+
+$navbar-default-bg: 	#FFB06F;
 $navbar-default-link-color: 	black; 
 
-$jumbotron-bg: 		#ecf0f1;
+$jumbotron-bg: 		#DFDFF6;
 
 @import 'bootstrap';
+
+
+
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+color: #333333;
+background-color: #9696F2;
+border-color: #adadad;
+}
+
+
+#meggo-right {
+	margin-right: 16px;
+}

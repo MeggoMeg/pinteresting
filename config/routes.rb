@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
+  resources :workouts
+
+  resources :todos
+
+  resources :cookies
+
   root "pages#home" # creates root_path
   get "about" => "pages#about" # creates about_path
+  get "meggo" => "pages#meggo"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

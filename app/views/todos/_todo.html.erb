@@ -1,0 +1,6 @@
+
+      <tr id="<%= todo.id %>">
+        <td style="font-size:30px; padding:30px;"><%= todo.title %></td>
+        <td style="padding:30px;"><%= link_to 'Destroy', todo, method: :delete, remote: true, :class => "btn btn-danger btn-large" %></td>
+      </tr>
+     
